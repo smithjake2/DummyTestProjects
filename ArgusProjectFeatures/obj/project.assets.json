@@ -5401,6 +5401,7 @@
       "SpecFlow >= 3.9.74",
       "SpecFlow.NUnit >= 3.9.74",
       "SpecFlow.Plus.LivingDocPlugin >= 3.9.57",
+      "SpecFlow.Tools.MsBuild.Generation >= 3.9.74",
       "coverlet.collector >= 6.0.0"
     ]
   },
@@ -5481,6 +5482,10 @@
           "SpecFlow.Plus.LivingDocPlugin": {
             "target": "Package",
             "version": "[3.9.57, )"
+          },
+          "SpecFlow.Tools.MsBuild.Generation": {
+            "target": "Package",
+            "version": "[3.9.74, )"
           },
           "coverlet.collector": {
             "target": "Package",
