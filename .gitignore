@@ -9,3 +9,4 @@
 /.vs/slnx.sqlite
 /.vs/VSWorkspaceState.json
 *.vsidx
+/ArgusProjectFeatures/bin/Debug/net8.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
