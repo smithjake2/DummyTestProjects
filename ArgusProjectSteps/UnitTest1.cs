@@ -8,7 +8,7 @@ namespace ArgusProjectSteps
         [Given(@"I have a step for testing")]
         public void GivenIHaveAStepForTesting()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }

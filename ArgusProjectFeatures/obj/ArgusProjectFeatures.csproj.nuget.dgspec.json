@@ -74,15 +74,11 @@
               "target": "Package",
               "version": "[3.9.74, )"
             },
+            "SpecFlow.Internal.Json": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
             "SpecFlow.NUnit": {
-              "target": "Package",
-              "version": "[3.9.74, )"
-            },
-            "SpecFlow.Plus.LivingDocPlugin": {
-              "target": "Package",
-              "version": "[3.9.57, )"
-            },
-            "SpecFlow.Tools.MsBuild.Generation": {
               "target": "Package",
               "version": "[3.9.74, )"
             },
