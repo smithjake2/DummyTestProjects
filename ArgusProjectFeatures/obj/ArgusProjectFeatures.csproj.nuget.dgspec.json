@@ -10,15 +10,11 @@
         "projectUniqueName": "C:\\Code\\DummyTestProjects\\ArgusProjectFeatures\\ArgusProjectFeatures.csproj",
         "projectName": "ArgusProjectFeatures",
         "projectPath": "C:\\Code\\DummyTestProjects\\ArgusProjectFeatures\\ArgusProjectFeatures.csproj",
-        "packagesPath": "C:\\Users\\smith\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\JakeSmith\\.nuget\\packages\\",
         "outputPath": "C:\\Code\\DummyTestProjects\\ArgusProjectFeatures\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\smith\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\JakeSmith\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/codestringltd/_packaging/Codestring/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -47,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -103,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -113,15 +109,11 @@
         "projectUniqueName": "C:\\Code\\DummyTestProjects\\ArgusProjectSteps\\ArgusProjectSteps.csproj",
         "projectName": "ArgusProjectSteps",
         "projectPath": "C:\\Code\\DummyTestProjects\\ArgusProjectSteps\\ArgusProjectSteps.csproj",
-        "packagesPath": "C:\\Users\\smith\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\JakeSmith\\.nuget\\packages\\",
         "outputPath": "C:\\Code\\DummyTestProjects\\ArgusProjectSteps\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\smith\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\JakeSmith\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,7 +121,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/codestringltd/_packaging/Codestring/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -146,8 +139,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -194,7 +186,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
