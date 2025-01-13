@@ -96,6 +96,9 @@ testRunner.Given("I have a step for testing", ((string)(null)), ((TechTalk.SpecF
 #line 7
 testRunner.When("I uise this step", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
+#line 8
+testRunner.When("I use new step", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

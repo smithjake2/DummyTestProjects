@@ -10,5 +10,12 @@ namespace ArgusProjectSteps
         {
             //throw new NotImplementedException();
         }
+
+        [When(@"I uise this step")]
+        public void WhenIUiseThisStep()
+        {
+            //throw new PendingStepException();
+        }
+
     }
 }
