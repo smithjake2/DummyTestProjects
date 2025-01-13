@@ -37,6 +37,7 @@ Then The total returned should be "44.55"
 #[(1*4) + (4*7) + (2*(2.50 * 0.7)) + (2*2.50)] * 1.1
 #Assumption: The bill from the original orders (1S,2M,2PCD) are not cleared from the bill
 
+
 Rule: Scenario 3 tested
 @Scenario3
 Scenario: Starters, Mains and Drinks removed
