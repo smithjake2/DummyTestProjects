@@ -1,24 +1,23 @@
-﻿using ArgusProjectSteps.Context;
-using ArgusProjectSteps.PageObjectModel.CheckoutCalculator;
+﻿using ArgusProjectSteps.PageObjectModel.CheckoutCalculator;
 
 namespace ArgusProjectSteps.Steps
 {
     [Binding]
     public class BillCalculationSteps
     {
-        private readonly OrderContext orderContext;
+        private readonly MockCheckoutSystem mockCheckoutSystem;
         private readonly MockBillCalculator billCalculator;
 
-        public BillCalculationSteps(OrderContext orderContext, MockBillCalculator billCalculator)
+        public BillCalculationSteps(MockCheckoutSystem mockCheckoutSystem, MockBillCalculator billCalculator)
         {
-            this.orderContext = orderContext;
+            this.mockCheckoutSystem = mockCheckoutSystem;
             this.billCalculator = billCalculator;
         }
 
         [When(@"The total bill is calculated")]
         public void WhenTheTotalBillIsCalculated()
         {
-            orderContext.Total = billCalculator.CalculateBill(); // MOCKED Calculator
+            mockCheckoutSystem.Total = billCalculator.CalculateBill(); // MOCKED: Interaction with Checkout System to calculate order
         }
 
     }

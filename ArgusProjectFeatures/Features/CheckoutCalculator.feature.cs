@@ -107,7 +107,7 @@ testRunner.Given("\"4\" drinks are ordered after the cutoff period", ((string)(n
 testRunner.When("The total bill is calculated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 13
-testRunner.Then("The total returned should be \"59.40\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.Then("The total returned should be correct", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -145,7 +145,7 @@ testRunner.Given("\"2\" drinks are ordered before the cutoff period", ((string)(
 testRunner.When("The total bill is calculated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 24
-testRunner.Then("The total returned should be \"23.65\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.Then("The total returned should be correct", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -189,7 +189,7 @@ testRunner.Given("\"2\" drinks are ordered after the cutoff period", ((string)(n
 testRunner.When("The total bill is calculated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 36
-testRunner.Then("The total returned should be \"44.55\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.Then("The total returned should be correct", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -236,7 +236,7 @@ testRunner.When("\"1\" drink from after the cutoff period is removed", ((string)
 testRunner.When("The total bill is calculated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 50
-testRunner.Then("The total returned should be \"44.55\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.Then("The total returned should be correct", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

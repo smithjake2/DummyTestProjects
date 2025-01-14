@@ -1,12 +1,10 @@
-﻿using ArgusProjectSteps.Context;
-
-namespace ArgusProjectSteps.PageObjectModel.CheckoutCalculator
+﻿namespace ArgusProjectSteps.PageObjectModel.CheckoutCalculator
 {
     public class MockBillCalculator
     {
-        private readonly OrderContext orderContext;
+        private readonly MockCheckoutSystem orderContext;
 
-        public MockBillCalculator(OrderContext orderContext)
+        public MockBillCalculator(MockCheckoutSystem orderContext)
         {
             this.orderContext = orderContext;
         }
